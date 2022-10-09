@@ -1,3 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: #3f8938;
+}
+
+nav ul {
+    margin-top: 20px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    color: white;
 }
