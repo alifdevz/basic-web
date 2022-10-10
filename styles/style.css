@@ -3,6 +3,11 @@
     src: url(aAlleyGarden.ttf);
 }
 
+@font-face {
+    font-family: "Descriptor";
+    src: url(Cool\ Cat.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -12,7 +17,7 @@ body {
 }
 
 nav {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 nav li {
@@ -20,9 +25,9 @@ nav li {
     display: inline;
     margin-right: 20px;
     color: white;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 400;
-    font-family: "Gardening Font";
+    font-family: "Gardening Font", Verdana, Tahoma, sans-serif;
 }
 
 nav a {
@@ -35,5 +40,31 @@ nav a:active {
 }
 
 nav a:hover {
+    color: orange;
+}
+
+nav {
+    display: inline-block;
+    width: 77%;
+}
+
+header div {
+    float: right;
+    width: 23%;
+    margin-top: 50px;
+}
+
+header #website-title {
+    font-family: "Gardening Font", Verdana, Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    display: inline;
+    line-height: 0%;
+}
+
+header #small-website-description {
+    font-size: 16px;
+    font-family: Descriptor;
     color: orange;
 }
