@@ -13,6 +13,8 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
     background: #3f8938;
 }
 
@@ -48,6 +50,10 @@ nav {
     width: 77%;
 }
 
+header {
+    margin-top: 10px;
+}
+
 header div {
     float: right;
     width: 23%;
@@ -67,4 +73,19 @@ header #small-website-description {
     font-size: 16px;
     font-family: Descriptor;
     color: orange;
+}
+
+footer {
+    color: gray;
+    background-color: #e6dd3b;
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer p {
+    /* margin: 0; */
+    padding: 4px;
 }
