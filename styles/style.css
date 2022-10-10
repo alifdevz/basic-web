@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Gardening Font";
+    src: url(aAlleyGarden.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -6,8 +11,8 @@ body {
     background: #3f8938;
 }
 
-nav ul {
-    margin-top: 20px;
+nav {
+    margin-top: 30px;
 }
 
 nav li {
@@ -15,4 +20,20 @@ nav li {
     display: inline;
     margin-right: 20px;
     color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Gardening Font";
+}
+
+nav a {
+    text-decoration: none;
+    color: unset;
+}
+
+nav a:active {
+    color: orange;
+}
+
+nav a:hover {
+    color: orange;
 }
