@@ -91,11 +91,42 @@ footer p {
 
 main {
     width: 1300px;
-    height: 390px;
+    height: 400px;
     position: absolute;
     top: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
     background: white;
-    border-radius: 10px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.content {
+    width: 300%;
+    height: 400px;
+    background: orange;
+    display: flex;
+}
+
+.article {
+    width: 1300px;
+    height: 400px;
+    position: relative;
+}
+
+.article:nth-child(odd) {
+    background: lightblue;
+}
+
+.article:nth-child(even) {
+    background: lightgreen;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.article > span {
+    position: relative;
+    display: block;
 }
