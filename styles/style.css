@@ -99,12 +99,13 @@ main {
     background: white;
     overflow-x: scroll;
     scroll-behavior: smooth;
+    background: transparent;
+    border-radius: 10px;
 }
 
 .content {
     width: 300%;
     height: 400px;
-    background: orange;
     display: flex;
 }
 
@@ -129,4 +130,9 @@ main {
 .article > span {
     position: relative;
     display: block;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
