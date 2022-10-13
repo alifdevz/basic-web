@@ -103,9 +103,13 @@ main {
     border-radius: 10px;
 }
 
-.content {
+.content-and-aside-wrapper {
     width: 400%;
     height: 400px;
+    display: flex;
+}
+
+.content {
     display: flex;
 }
 
