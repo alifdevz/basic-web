@@ -144,6 +144,10 @@ main {
     margin: 0 12px 12px 0;
 }
 
+.clear {
+    clear: left;
+}
+
 h2, h3 {
     color: #29bb89;
 }
