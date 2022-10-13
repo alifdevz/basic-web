@@ -114,14 +114,7 @@ main {
     height: 400px;
     position: relative;
     overflow-x: scroll;
-}
-
-.article:nth-child(odd) {
-    background: lightblue;
-}
-
-.article:nth-child(even) {
-    background: lightgreen;
+    background: white;
 }
 
 ::-webkit-scrollbar {
@@ -140,4 +133,17 @@ main {
 
 .wrapper {
     padding: 20px;
+}
+
+.article img {
+    width: 30%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    float: left;
+    margin: 0 12px 12px 0;
+}
+
+h2, h3 {
+    color: #29bb89;
 }
