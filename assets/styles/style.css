@@ -142,7 +142,7 @@ footer > p {
     background-color: #e6dd3b;
     text-align: center;
     font-weight: bold;
-    text-shadow: 1px 1px 3px #666666;
+    text-shadow: 1px 1px 3px #302f2f;
 }
 
 @media screen and (max-width: 1000px) {
