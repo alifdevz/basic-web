@@ -138,10 +138,11 @@ footer > p {
     margin-top: 30px;
     margin-bottom: 0;
     padding: 25px;
-    color: gray;
+    color: white;
     background-color: #e6dd3b;
     text-align: center;
     font-weight: bold;
+    text-shadow: 1px 1px 3px #666666;
 }
 
 @media screen and (max-width: 1000px) {
