@@ -94,3 +94,72 @@ navJenisJenisKebun.addEventListener('click', function() {
     span.innerHTML = text;
     article.append(span);
 });
+
+let navTeknikTeknikMenanam = document.querySelector("[href='#teknik-teknik-menanam']");
+navTeknikTeknikMenanam.addEventListener('click', function() {
+    let wrapper = document.getElementById('articles-wrapper');
+    wrapper.innerHTML = "";
+
+    let article = document.createElement('article');
+    wrapper.append(article);
+
+    let h2 = document.createElement('h2');
+    h2.textContent = "Teknik-Teknik Menanam";
+    article.append(h2);
+
+    let span = document.createElement('span');
+    let text = `<section>
+                    <h3>1. Teknik Hidroponik</h3>
+                    <img src="assets/images/hidroponik.jpg" alt="Hidroponik" class="featured-image">
+                    <p>Hidroponik adalah cara bertanam yang lebih memanfaatkan air ketimbang tanah. 
+                        Salah satu caranya adalah dengan cara memanfaatkan pipa air. Bagian terpenting yang 
+                        harus diperhatikan dalam membuat hidroponik adalah suhu, nutrisi untuk tanaman, dan 
+                        intensitas cahaya.
+                    </p>
+                    <p>
+                        Dalam penanaman dengan hidroponik, bisa menggunakan lahan seluas 1×2 meter yang bisa 
+                        menampung sekitar 20-25 tanaman. Hidroponik sendiri memiliki konsep utama yaitu 
+                        mengganti unsur hara yang biasa didapat tanaman dari tanah dengan memberikan nutrisi 
+                        buatan pada air yang digunakan sebagai media tanam dalam hidroponik. Oleh karena itu, 
+                        perawatan hidroponik pun memerlukan ketekunan.
+                    </p>
+                </section>
+                <section>
+                    <h3>2. Teknik Tabulampot (Tanam Buah dalam Pot)</h3>
+                    <img src="assets/images/tabulampot.jpg" alt="Tabulampot" class="featured-image">
+                    <p>
+                        Teknik tabulampot adalah teknologi budidaya tanaman dalam lahan pertanian 
+                        dengan memanfaatkan ruangan yang terbatas untuk menumbuhkan tanaman yang produktif 
+                        di dalam pot. Teknik menanam ini menggunakan media tanam seperti pot berbahan tanah 
+                        liat dan kayu dengan menggunakan campuran antara tanah, kompos dan sekam dengan 
+                        komposisi 1:1:1.
+                    </p>
+                    <p>
+                        Dalam fungsinya, tabulampot banyak membantu para pecinta tanaman yang tidak memiliki 
+                        lahan/halaman yang luas. Disamping itu, metode ini menjadi pemecah kebuntuan dimana 
+                        orang-orang cenderung bosan merawat tanaman hias yang pada pelaksanaaan sehari-harinya 
+                        hanya berujung pada pembentukan bunga atau pembentukan fisik tanaman. Pada tabulampot, 
+                        perkembangan fisik tanaman seperti batang tidak seberapa diperlukan, karena tanaman buah 
+                        ini memang ditujukan untuk ditanam didalam pot yang cenderung kecil dan perkembangan 
+                        fisiknya harus dibatasi, sehingga penggunaan pupuk untuk nutrisi juga harus disesuaikan.
+                    </p>
+                </section>
+                <section>
+                    <h3>3. Teknik Vertikultur</h3>
+                    <img src="assets/images/vertikultur.jpeg" alt="Vertikultur" class="featured-image">
+                    <p>
+                        Vertikultur adalah sistem budidaya pertanian atau cara berkebun dengan media tanam yang 
+                        dilakukan secara vertikal atau bertingkat, baik indoor ataupun outdoor. Vertikultur 
+                        sendiri merupakan gabungan dari dua kata, yaitu vertical dan culture. Vertical memiliki 
+                        arti berdiri, sedangkan culture artinya budaya. Kedua kata ini berasal dari bahasa Inggris.
+                    </p>
+                    <p>
+                        Manfaat vertikultur sudah banyak dilirik para pembudidaya tanaman. Karena pola budidayanya yakni 
+                        tanaman disusun dengan cara bertingkat sehingga Anda tak memerlukan tanah yang luas untuk mulai 
+                        menanam. Selain itu, karena semua tanaman tumbuh di dalam sebuah pot atau botol bekas, tentunya 
+                        kita tak akan mengalami kesulitan ketika memindahkannya.
+                    </p>
+                </section>`;
+    span.innerHTML = text;
+    article.append(span);
+});
