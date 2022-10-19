@@ -1,6 +1,5 @@
-let navigation = document.querySelector("[href='#definisi']");
-navigation.addEventListener('click', function () {
-
+let navDefinisi = document.querySelector("[href='#definisi']");
+navDefinisi.addEventListener('click', function () {
     let wrapper = document.getElementById('articles-wrapper');
     wrapper.innerHTML = "";
 
@@ -42,3 +41,5 @@ navigation.addEventListener('click', function () {
     span.innerHTML = text;
     article.append(span);
 });
+
+navDefinisi.click();
