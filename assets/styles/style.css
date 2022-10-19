@@ -96,6 +96,7 @@ main {
     background: transparent;
     float: left;
     overflow-x: scroll;
+    scroll-behavior: smooth;
 }
 
 .card {
