@@ -1,5 +1,6 @@
+// Definisi
 let navDefinisi = document.querySelector("[href='#definisi']");
-navDefinisi.addEventListener('click', function () {
+navDefinisi.addEventListener('click', function() {
     let wrapper = document.getElementById('articles-wrapper');
     wrapper.innerHTML = "";
 
@@ -13,7 +14,7 @@ navDefinisi.addEventListener('click', function () {
     let img = document.createElement('img');
     img.setAttribute("src", "assets/images/kebun-anggur.jpg");
     img.setAttribute("alt", "Contoh kebun");
-    img.setAttribute("class", "featured-image");
+    img.classList.add('featured-image');
     article.append(img);
 
     let span = document.createElement('span');
@@ -43,3 +44,53 @@ navDefinisi.addEventListener('click', function () {
 });
 
 navDefinisi.click();
+
+// Jenis-Jenis Kebun
+let navJenisJenisKebun = document.querySelector("[href='#jenis-jenis-kebun']");
+navJenisJenisKebun.addEventListener('click', function() {
+    let wrapper = document.getElementById('articles-wrapper');
+    wrapper.innerHTML = "";
+
+    let article = document.createElement('article');
+    wrapper.append(article);
+
+    let h2 = document.createElement('h2');
+    h2.textContent = "Jenis-Jenis Kebun";
+    article.append(h2);
+
+    let span = document.createElement('span');
+    let text = `<p>Berdasarkan luasnya, kebun dapat dibedakan menjadi tiga:</p>
+                <section>
+                    <h3>1. Kebun Pekarangan</h3>
+                    <img src="assets/images/kebun-sayur-di-pekarangan.jpg" alt="Kebun Pekarangan" class="featured-image">
+                    <p>Kebun jenis ini adalah kebun yang dibuat di halaman rumah penduduk, sehingga luasnya kecil. 
+                        Biasanya masyarakat memanfaatkan lahan kosong yang ada di halaman rumah mereka untuk ditanami 
+                        tanaman-tanaman yang dapat menghasilkan pangan seperti buah-buahan, sayur-sayuran, dan yang 
+                        lainnya. Terkadang juga kebun di pekarangan dibuat dengan metode hidroponik.
+                    </p>
+                </section>
+                <section>
+                    <h3>2. Kebun Ukuran Sedang</h3>
+                    <img src="assets/images/kebun.jpg" alt="Kebun ukuran sedang" class="featured-image">
+                    <p>Kebun ukuran sedang atau yang biasa kita kenal dengan sebutan kebun saja. Adalah lahan kosong 
+                        yang dimiliki oleh warga yang areanya cukup luas untuk ditanami tanaman-tanaman tertentu untuk
+                        dijual hasilnya. Kebun jenis ini pada umumnya dijadikan mata pencaharian oleh masyarakat. Jenis 
+                        tanaman yang ditanam bervariasi, bisa berupa tanaman pangan seperti jagung, ubi, sayur-sayuraan 
+                        dan buah-buahan seperti jeruk dan yang lainnya atau juga dapat berupa tanaman yang menjadi bahan 
+                        baku atau bumbu masakan seperti merica, cabe, jahe, dan rempah-rempah lainnya.
+                    </p>
+                </section>
+                <section>
+                    <h3>3. Perkebunan</h3>
+                    <img src="assets/images/perkebunan-teh.jpg" alt="Perkebunan" class="featured-image">
+                    <p>Kebun jenis ini merupakan kebun yang paling luas dari jenis-jenis kebun yang telah disebutkan
+                        sebelumnya. Perkebunan memiliki area yang sangat luas bahkan dapat mencapai puluhan hektar 
+                        atau lebih. Biasanya perkebunan dimiliki oleh perusahaan atau pebisnis besar. Contoh dari perkebunan
+                        adalah perkebunan kelapa sawit, perkebunan teh, perkebunan kopi, perkebunan karet, perkebunan tebu,
+                        perkebunan kapas, perkebunan cokelat dan lain-lain. Karena area perkebunan sangat luas, maka hasil 
+                        panennya pun sangat besar, dan bahkan banyak yang diekspor ke negara lain.
+                    </p>
+                </section>`;
+    span.innerHTML = text;
+    article.append(span);
+});
