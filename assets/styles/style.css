@@ -178,7 +178,7 @@ footer > p {
     text-shadow: 1px 1px 3px #302f2f;
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
     main {
         height: 1680px;
         margin: 0 auto;
@@ -244,4 +244,4 @@ footer > p {
         display: inline;
         float: none;
     }
-}
+} */
