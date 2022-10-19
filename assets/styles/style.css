@@ -47,6 +47,10 @@ nav a:hover {
     color: orange;
 }
 
+.nav-selected {
+    color: orange;
+}
+
 nav {
     margin-top: 0px;
     display: inline-block;

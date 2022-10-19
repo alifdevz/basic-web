@@ -1,6 +1,11 @@
 // Definisi
 let navDefinisi = document.querySelector("[href='#definisi']");
 navDefinisi.addEventListener('click', function() {
+    navDefinisi.classList.remove('nav-selected');
+    navJenisJenisKebun.classList.remove('nav-selected');
+    navTeknikTeknikMenanam.classList.remove('nav-selected');
+    navDefinisi.classList.add('nav-selected');
+
     let wrapper = document.getElementById('articles-wrapper');
     wrapper.innerHTML = "";
 
@@ -43,11 +48,14 @@ navDefinisi.addEventListener('click', function() {
     article.append(span);
 });
 
-navDefinisi.click();
-
 // Jenis-Jenis Kebun
 let navJenisJenisKebun = document.querySelector("[href='#jenis-jenis-kebun']");
 navJenisJenisKebun.addEventListener('click', function() {
+    navDefinisi.classList.remove('nav-selected');
+    navJenisJenisKebun.classList.remove('nav-selected');
+    navTeknikTeknikMenanam.classList.remove('nav-selected');
+    navJenisJenisKebun.classList.add('nav-selected');    
+    
     let wrapper = document.getElementById('articles-wrapper');
     wrapper.innerHTML = "";
 
@@ -97,6 +105,11 @@ navJenisJenisKebun.addEventListener('click', function() {
 
 let navTeknikTeknikMenanam = document.querySelector("[href='#teknik-teknik-menanam']");
 navTeknikTeknikMenanam.addEventListener('click', function() {
+    navDefinisi.classList.remove('nav-selected');
+    navJenisJenisKebun.classList.remove('nav-selected');
+    navTeknikTeknikMenanam.classList.remove('nav-selected');
+    navTeknikTeknikMenanam.classList.add('nav-selected');
+
     let wrapper = document.getElementById('articles-wrapper');
     wrapper.innerHTML = "";
 
@@ -163,3 +176,5 @@ navTeknikTeknikMenanam.addEventListener('click', function() {
     span.innerHTML = text;
     article.append(span);
 });
+
+navDefinisi.click();
