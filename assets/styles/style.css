@@ -120,6 +120,7 @@ article {
     width: 100%;
     height: 100%;
     padding: 25px;
+    background: lightgreen;
     animation-name: fade-in;
     animation-duration: 3s;
 }
@@ -132,14 +133,6 @@ article {
     to {
         opacity: 1;
     }
-}
-
-article:nth-child(odd) {
-    background: lightgreen;
-}
-
-article:nth-child(even) {
-    background: lightblue;
 }
 
 .wrapper {
