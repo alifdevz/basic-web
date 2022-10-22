@@ -178,6 +178,43 @@ footer > p {
     text-shadow: 1px 1px 3px #302f2f;
 }
 
+@media screen and (max-width: 1045px) {
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    header > div {
+        width: 100%;
+        float: none;
+    }
+
+    .title-wrapper {
+        float: none;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    aside {
+        width: 100%;
+    }
+}
+
+/* @media screen and (max-width: 59px) {
+    
+} */
+
 /* @media screen and (max-width: 1000px) {
     main {
         height: 1680px;

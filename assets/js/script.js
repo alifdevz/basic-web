@@ -1,11 +1,13 @@
-if (window.matchMedia("(max-width: 1000px)").matches) {
-    // Viewport is less than or equal to 1000 pixels wide
+if (window.matchMedia("(max-width: 1045px)").matches) {
+    // Viewport is less than or equal to 1045 pixels wide
     
     
 } else if (window.matchMedia("(max-width: 689px)").matches) {
     // Viewport is less than or equal to 689 pixels wide
 
 } else {
+    // Viewport is more than 1000 pixels wide
+    
     // Definisi
     let navDefinisi = document.querySelector("[href='#definisi']");
     navDefinisi.addEventListener('click', function() {
