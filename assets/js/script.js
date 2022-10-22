@@ -1,7 +1,6 @@
 if (window.matchMedia("(max-width: 1045px)").matches) {
     // Viewport is less than or equal to 1045 pixels wide
     
-    
 } else if (window.matchMedia("(max-width: 689px)").matches) {
     // Viewport is less than or equal to 689 pixels wide
 
