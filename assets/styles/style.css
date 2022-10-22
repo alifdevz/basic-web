@@ -13,6 +13,7 @@ body {
     padding: 0;
     background: #3f8938;
     font-family: "Noto Serif", Arial, Helvetica, sans-serif;
+    min-width: 526px;
 }
 
 * {
@@ -179,7 +180,7 @@ footer > p {
 }
 
 @media screen and (max-width: 1045px) {
-    header {
+    body > header {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -190,7 +191,7 @@ footer > p {
         text-align: center;
     }
 
-    header > div {
+    body > header > div {
         width: 100%;
         float: none;
     }
@@ -208,6 +209,10 @@ footer > p {
 
     aside {
         width: 100%;
+    }
+
+    aside img {
+        width: 70%;
     }
 }
 
