@@ -6,6 +6,8 @@ navDefinisi.addEventListener('click', function() {
     navTeknikTeknikMenanam.classList.remove('nav-selected');
     navDefinisi.classList.add('nav-selected');
 
+    window.scrollTo(0, 0);
+
     let wrapper = document.getElementById('articles-wrapper');
     wrapper.innerHTML = "";
 
@@ -57,6 +59,8 @@ navJenisJenisKebun.addEventListener('click', function() {
     navJenisJenisKebun.classList.remove('nav-selected');
     navTeknikTeknikMenanam.classList.remove('nav-selected');
     navJenisJenisKebun.classList.add('nav-selected');    
+    
+    window.scrollTo(0, 0);
     
     let wrapper = document.getElementById('articles-wrapper');
     wrapper.innerHTML = "";
@@ -114,6 +118,8 @@ navTeknikTeknikMenanam.addEventListener('click', function() {
     navTeknikTeknikMenanam.classList.remove('nav-selected');
     navTeknikTeknikMenanam.classList.add('nav-selected');
 
+    window.scrollTo(0, 0);
+    
     let wrapper = document.getElementById('articles-wrapper');
     wrapper.innerHTML = "";
 

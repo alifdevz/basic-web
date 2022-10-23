@@ -145,7 +145,7 @@ article {
     padding: 25px;
     background: white;
     animation-name: fade-in;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
 @keyframes fade-in {
