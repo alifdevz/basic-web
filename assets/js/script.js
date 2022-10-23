@@ -10,6 +10,7 @@ navDefinisi.addEventListener('click', function() {
     wrapper.innerHTML = "";
 
     let article = document.createElement('article');
+    article.classList.add('card');
     wrapper.append(article);
 
     let h2 = document.createElement('h2');
@@ -60,6 +61,7 @@ navJenisJenisKebun.addEventListener('click', function() {
     wrapper.innerHTML = "";
 
     let article = document.createElement('article');
+    article.classList.add('card');
     wrapper.append(article);
 
     let h2 = document.createElement('h2');
@@ -114,6 +116,7 @@ navTeknikTeknikMenanam.addEventListener('click', function() {
     wrapper.innerHTML = "";
 
     let article = document.createElement('article');
+    article.classList.add('card');
     wrapper.append(article);
 
     let h2 = document.createElement('h2');
