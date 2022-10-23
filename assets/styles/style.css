@@ -190,6 +190,7 @@ footer > p {
 @media screen and (max-width: 1045px) {
     body > header {
         margin-bottom: 15px;
+        display: inline;
     }
 
     nav {
@@ -197,16 +198,17 @@ footer > p {
         text-align: center;
         position: sticky;
         top: 0;
-        /* background: #e6dd3b; */
+        background: #3f8938;
     }
 
     body > header > div {
         width: 100%;
         float: none;
+        text-align: center;
     }
 
-    main {
-        overflow: visible;
+    .static {
+        position: static;
     }
 
     .title-wrapper {
